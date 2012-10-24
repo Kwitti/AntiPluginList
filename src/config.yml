@@ -1,0 +1,15 @@
+#AntiPluginList developed by TheHarofreak
+AntiPluginList:
+    Block-Plugins: true
+    Block-Version: true
+AntiVersion:
+#Which message should the player receive after trying to display the version ?
+    For-Player: '&cThe attempt to display the version has been logged !'
+#Which message should the admin receive ? (At the beginning the playername is displayed).
+    For-OP: '&6%player &ctried to display the version.'
+
+AntiPlugin:
+#Which message should the player receive after trying to list the plugins ?
+    For-Player: '&cThe attempt to list the plugin has been logged !'
+#Which message should the admin receive after trying to list the plugins ? (At the beginning the playername is displayed).
+    For-OP: '&6%player &ctried to list the plugins.'
